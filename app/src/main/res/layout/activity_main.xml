@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDFFDD"
+    tools:context=".MainActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#99FFDD"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="แตะเพื่อฟังเสียงสัตว์:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:background="#99CCFF"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/bird" />
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/cat" />
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/cow" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="160dp"
+        android:background="#99CCFF"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/dog" />
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/elephant" />
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.35"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/horse" />
+    </LinearLayout>
+</RelativeLayout>
